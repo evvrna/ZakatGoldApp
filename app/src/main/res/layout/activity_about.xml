@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A1A1A">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_about"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#D4AF37"
+        android:elevation="4dp"
+        android:titleTextColor="#000000"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/transparent"
+            android:showDividers="middle">
+
+            <!-- Student Info -->
+            <TextView
+                android:id="@+id/tvStudentInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Group: RCDCS2405A\nStudent Number: 2023218106\nProgramme Code: CS240"
+                android:textColor="#FFFFFF"
+                android:background="#2C2C2C"
+                android:padding="12dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_vertical"
+                android:clipToOutline="true"/>
+
+            <!-- App Details -->
+            <TextView
+                android:id="@+id/tvDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Zakat Gold Calculator App"
+                android:textColor="#FFFFFF"
+                android:background="#2C2C2C"
+                android:padding="12dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_vertical"
+                android:clipToOutline="true"/>
+
+            <!-- Info -->
+            <TextView
+                android:id="@+id/tvInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This app helps you calculate zakat on your gold based on the current nisab and gold value."
+                android:textColor="#FFFFFF"
+                android:background="#2C2C2C"
+                android:padding="12dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_vertical"/>
+
+            <!-- Copyright -->
+            <TextView
+                android:id="@+id/tvCopyright"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="© 2025 ZakatGoldApp UiTM Perlis"
+                android:textColor="#FFFFFF"
+                android:background="#2C2C2C"
+                android:padding="12dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_vertical"/>
+
+            <!-- GitHub Link -->
+            <TextView
+                android:id="@+id/tvUrl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://github.com/evvrna/ZakatGoldApp"
+                android:textColor="#D4AF37"
+                android:textSize="14sp"
+                android:background="#2C2C2C"
+                android:padding="12dp"
+                android:autoLink="web"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_vertical"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

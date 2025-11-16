@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- App Base Theme -->
+    <style name="Theme.ZakatGoldApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary Gold -->
+        <item name="colorPrimary">#D4AF37</item>         <!-- Gold -->
+        <item name="colorPrimaryContainer">#B38A2E</item>
+
+        <!-- Secondary Accent -->
+        <item name="colorSecondary">#F4E3B2</item>       <!-- Light Gold/Champagne -->
+        <item name="colorSecondaryContainer">#D6C49F</item>
+
+        <!-- Background -->
+        <item name="android:colorBackground">#1A1A1A</item>  <!-- Dark premium bg -->
+        <item name="colorSurface">#1E1E1E</item>
+        <item name="colorOnSurface">#FFFFFF</item>
+
+        <!-- Text Colors -->
+        <item name="android:textColor">#FFFFFF</item>
+
+        <!-- Toolbar -->
+        <item name="toolbarStyle">@style/GoldToolbar</item>
+
+        <!-- Buttons -->
+        <item name="materialButtonStyle">@style/GoldButton</item>
+    </style>
+
+    <!-- Toolbar Style -->
+    <style name="GoldToolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">#D4AF37</item>  <!-- Gold -->
+        <item name="titleTextColor">#000000</item>       <!-- Black text for contrast -->
+        <item name="subtitleTextColor">#000000</item>
+    </style>
+
+    <!-- Button Style -->
+    <style name="GoldButton" parent="Widget.Material3.Button">
+        <item name="backgroundTint">#D4AF37</item>       <!-- Gold button -->
+        <item name="android:textColor">#000000</item>    <!-- Black text -->
+    </style>
+
+</resources>
