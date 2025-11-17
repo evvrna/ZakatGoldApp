@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
             return true;
 
         } else if (id == R.id.item_share) {
-            String shareText = "https://github.com/evvrnaS/ZakatGoldApp";
+            String shareText = "https://github.com/evvrna/ZakatGoldApp";
 
             Intent shareIntent = new Intent(Intent.ACTION_SEND);
             shareIntent.setType("text/plain");
